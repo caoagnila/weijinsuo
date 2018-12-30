@@ -1,0 +1,8 @@
+#Shuffling .carousel-inner .l-image {
+  background-position: center center;
+  height: 410px;
+  width: 100%;
+}
+#Shuffling .carousel-inner .s-image img {
+  width: 100%;
+}

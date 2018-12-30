@@ -1,0 +1,30 @@
+#nav {
+  background-color: #fff;
+  margin-bottom: 0;
+  z-index: 99;
+  width: 100%;
+  top: 0;
+}
+#nav .navbar-header a {
+  height: 80px;
+  line-height: 50px;
+}
+#nav .navbar-header a .icon-icon {
+  font-size: 30px;
+  color: red;
+}
+#nav .navbar-header a .icon-logo {
+  font-size: 30px;
+  color: #000;
+}
+#nav .navbar-header .navbar-toggle {
+  margin-top: 23px;
+}
+#nav .navbar-collapse li a {
+  height: 80px;
+  line-height: 50px;
+  background-color: #fff;
+}
+#nav .navbar-collapse li a:hover {
+  border-bottom: 3px solid red;
+}

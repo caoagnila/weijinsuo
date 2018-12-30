@@ -1,0 +1,106 @@
+#recommended {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+}
+#recommended .nav-tabs li {
+  background-color: #f5f5f5;
+  height: 45px;
+}
+#recommended .nav-tabs li.active a {
+  border-bottom: 3px solid red;
+}
+#recommended .nav-tabs li a {
+  color: #666;
+  font-size: 16px;
+  border: none;
+  box-sizing: border-box;
+}
+#recommended .tab-content .commodity {
+  display: flex;
+  background-color: #fff;
+  height: 160px;
+  margin-top: 20px;
+}
+#recommended .tab-content .commodity.sole {
+  background-color: red;
+  color: #fff;
+}
+#recommended .tab-content .commodity.sole::before {
+  content: "\e915";
+  font-family: "itcast";
+  font-size: 30px;
+  position: absolute;
+  top: 13px;
+}
+#recommended .tab-content .commodity .commodity-left {
+  padding: 15px;
+  flex: 1;
+}
+#recommended .tab-content .commodity .commodity-left h4 {
+  text-align: center;
+}
+#recommended .tab-content .commodity .commodity-left .row .zi {
+  margin-bottom: 10px;
+}
+#recommended .tab-content .commodity .commodity-left .row .zi:nth-child(2n) {
+  text-align: right;
+}
+#recommended .tab-content .commodity .commodity-left p {
+  margin: 0;
+}
+#recommended .tab-content .commodity .commodity-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  border-left: 1px dashed #ccc;
+  position: relative;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  #recommended .tab-content .commodity .commodity-right {
+    width: 100px;
+  }
+}
+@media (min-width: 320px) and (max-width: 400px) {
+  #recommended .tab-content .commodity .commodity-right {
+    width: 100px;
+  }
+}
+#recommended .tab-content .commodity .commodity-right::before,
+#recommended .tab-content .commodity .commodity-right::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  position: absolute;
+  left: -8px;
+}
+#recommended .tab-content .commodity .commodity-right::before {
+  top: -8px;
+}
+#recommended .tab-content .commodity .commodity-right::after {
+  bottom: -8px;
+}
+#recommended .tab-content .commodity .commodity-right strong {
+  font-size: 30px;
+}
+#recommended .tab-content .commodity .commodity-right p {
+  margin: 0;
+}
+#recommended .tab-content .commodity .commodity-right .tooltips {
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  text-align: center;
+}
+#recommended .tab-content .commodity .commodity-right .tooltips .tooltip .tooltip-inner {
+  background-color: burlywood;
+}
+#recommended .tab-content .commodity .commodity-right .tooltips button:last-of-type {
+  color: green;
+}
+#recommended .tab-content .commodity .commodity-right .tooltips button:first-of-type {
+  color: pink;
+}

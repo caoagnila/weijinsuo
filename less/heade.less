@@ -1,0 +1,32 @@
+#header {
+    border-bottom: 1px solid #ccc;
+    .row{
+        line-height: 40px;
+        div {
+            font-size: 12px;
+            a {
+                color: #666;
+            }
+            &:hover img {
+                display: block;
+            }
+            img{
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                display: none;
+                z-index: 99;
+            }
+            &~div{
+                border-left: 1px solid #ccc;
+            }
+            .form-horizontal{
+                .control-label{
+                    font-size: 24px;
+                    margin-top: -10px;
+                }
+            }
+        }
+        
+    }
+}

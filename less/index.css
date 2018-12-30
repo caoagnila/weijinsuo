@@ -1,0 +1,242 @@
+#header {
+  border-bottom: 1px solid #ccc;
+}
+#header .row {
+  line-height: 40px;
+}
+#header .row div {
+  font-size: 12px;
+}
+#header .row div a {
+  color: #666;
+}
+#header .row div:hover img {
+  display: block;
+}
+#header .row div img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  z-index: 99;
+}
+#header .row div ~ div {
+  border-left: 1px solid #ccc;
+}
+#header .row div .form-horizontal .control-label {
+  font-size: 24px;
+  margin-top: -10px;
+}
+#nav {
+  background-color: #fff;
+  margin-bottom: 0;
+}
+#nav .navbar-header a {
+  height: 80px;
+  line-height: 50px;
+}
+#nav .navbar-header a .icon-icon {
+  font-size: 30px;
+  color: red;
+}
+#nav .navbar-header a .icon-logo {
+  font-size: 30px;
+  color: #000;
+}
+#nav .navbar-header .navbar-toggle {
+  margin-top: 23px;
+}
+#nav .navbar-collapse li a {
+  height: 80px;
+  line-height: 50px;
+  background-color: #fff;
+}
+#nav .navbar-collapse li a:hover {
+  border-bottom: 3px solid red;
+}
+#Shuffling .carousel-inner .l-image {
+  background-position: center center;
+  height: 410px;
+  width: 100%;
+}
+#Shuffling .carousel-inner .s-image img {
+  width: 100%;
+}
+#features .row {
+  padding: 40px;
+}
+#features .row .media-list {
+  margin: 15px 0 10px 0 ;
+}
+#features .row .media-list a {
+  color: #000;
+  text-decoration: none;
+}
+#features .row .media-list a:hover {
+  color: red;
+}
+#features .row .media-list p {
+  margin: 0;
+}
+#appointment {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+}
+#appointment .model {
+  color: red;
+}
+#appointment .pull-left a {
+  color: red;
+}
+#recommended {
+  background-color: #f5f5f5;
+  padding: 40px;
+}
+#recommended .nav-tabs li {
+  background-color: #f5f5f5;
+}
+#recommended .nav-tabs li.active a {
+  border-bottom: 3px solid red;
+}
+#recommended .nav-tabs li a {
+  color: #666;
+  font-size: 16px;
+  border: none;
+  box-sizing: border-box;
+}
+#recommended .tab-content .commodity {
+  display: flex;
+  background-color: #fff;
+  height: 160px;
+  margin-top: 20px;
+}
+#recommended .tab-content .commodity.sole {
+  background-color: red;
+  color: #fff;
+}
+#recommended .tab-content .commodity.sole::before {
+  content: "\e915";
+  font-family: "itcast";
+  font-size: 30px;
+  position: absolute;
+  top: 13px;
+}
+#recommended .tab-content .commodity .commodity-left {
+  padding: 15px;
+  flex: 1;
+}
+#recommended .tab-content .commodity .commodity-left h4 {
+  text-align: center;
+}
+#recommended .tab-content .commodity .commodity-left .row .zi {
+  margin-bottom: 10px;
+}
+#recommended .tab-content .commodity .commodity-left .row .zi:nth-child(2n) {
+  text-align: right;
+}
+#recommended .tab-content .commodity .commodity-left p {
+  margin: 0;
+}
+#recommended .tab-content .commodity .commodity-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  border-left: 1px dashed #ccc;
+  position: relative;
+}
+#recommended .tab-content .commodity .commodity-right::before,
+#recommended .tab-content .commodity .commodity-right::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  position: absolute;
+  left: -8px;
+}
+#recommended .tab-content .commodity .commodity-right::before {
+  top: -8px;
+}
+#recommended .tab-content .commodity .commodity-right::after {
+  bottom: -8px;
+}
+#recommended .tab-content .commodity .commodity-right strong {
+  font-size: 30px;
+}
+#recommended .tab-content .commodity .commodity-right p {
+  margin: 0;
+}
+#recommended .tab-content .commodity .commodity-right .tooltips {
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  text-align: center;
+}
+#recommended .tab-content .commodity .commodity-right .tooltips .tooltip .tooltip-inner {
+  background-color: burlywood;
+}
+#recommended .tab-content .commodity .commodity-right .tooltips button:last-of-type {
+  color: green;
+}
+#recommended .tab-content .commodity .commodity-right .tooltips button:first-of-type {
+  color: pink;
+}
+#new {
+  padding: 40px 10px;
+}
+#new .col-md-offset-2 .programed {
+  border-bottom: 1px dashed #ccc;
+  text-align: center;
+  position: relative;
+}
+#new .col-md-offset-2 .programed::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+  bottom: -8px;
+  right: -8px;
+}
+#new .nav-tabs {
+  border-bottom: 0;
+}
+@media (max-width: 991px) {
+  #new .nav-tabs li {
+    width: 25%;
+  }
+  #new .nav-tabs li a {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+  }
+}
+#new .nav-tabs li a {
+  border-radius: 50%;
+  font-size: 30px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+#new .nav-tabs li a:hover {
+  background-color: red;
+}
+#new .nav-tabs li.active a {
+  background-color: red;
+  border: 0;
+}
+#new .tab-content .list-new {
+  list-style: none;
+  padding: 6px;
+  color: #ccc;
+}
+#footer h3 {
+  width: 100%;
+  text-align: center;
+}
+#footer i {
+  font-size: 30px;
+}

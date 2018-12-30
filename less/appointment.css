@@ -1,0 +1,11 @@
+#appointment {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+}
+#appointment .model {
+  color: red;
+}
+#appointment .pull-left a {
+  color: red;
+}

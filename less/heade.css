@@ -1,0 +1,29 @@
+#header {
+  border-bottom: 1px solid #ccc;
+}
+#header .row {
+  line-height: 40px;
+}
+#header .row div {
+  font-size: 12px;
+}
+#header .row div a {
+  color: #666;
+}
+#header .row div:hover img {
+  display: block;
+}
+#header .row div img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  z-index: 99;
+}
+#header .row div ~ div {
+  border-left: 1px solid #ccc;
+}
+#header .row div .form-horizontal .control-label {
+  font-size: 24px;
+  margin-top: -10px;
+}

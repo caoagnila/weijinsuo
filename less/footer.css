@@ -1,0 +1,10 @@
+#footer h3 {
+  width: 100%;
+  text-align: center;
+}
+#footer .row {
+  text-align: center;
+}
+#footer .row i {
+  font-size: 60px;
+}

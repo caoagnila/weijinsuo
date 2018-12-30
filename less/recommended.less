@@ -1,0 +1,118 @@
+//推荐栏的less
+#recommended {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    .nav-tabs {
+        li {
+            background-color: #f5f5f5;
+            height: 45px;
+            &.active a{
+                border-bottom: 3px solid red;
+                
+            }
+            a {
+                color: #666;
+                font-size: 16px;
+                border: none;
+                box-sizing: border-box;
+            }
+        }
+       
+    }
+    .tab-content {
+        .commodity {
+            display: flex;
+            background-color: #fff;
+            height: 160px;
+            margin-top: 20px;
+            &.sole{
+                background-color: red;
+                color: #fff;
+                &::before {
+                    content: "\e915";
+                    font-family: "itcast";
+                    font-size: 30px;
+                    position: absolute;
+                    top: 13px;
+                }
+            }
+            .commodity-left {
+                padding: 15px;
+                flex: 1;
+                h4 {
+                   text-align: center;
+                }
+                .row {
+                    .zi{
+                        margin-bottom: 10px;
+                        &:nth-child(2n) {
+                            text-align: right;
+                        }
+                    }
+                }
+        
+                p {
+                    margin: 0;
+                }
+            }
+            .commodity-right {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 120px;
+                border-left: 1px dashed #ccc;
+                position: relative;
+                @media (min-width:992px) and (max-width:1200px){
+                    width: 100px;
+                }
+                @media (min-width:320px) and (max-width:400px) {
+                    width:100px;
+                }
+                &::before,
+                &::after {
+                    content: "";
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 50%;
+                    background-color: #f5f5f5;
+                    position: absolute;
+                    left:-8px;
+                }
+                &::before {
+                    top:-8px;
+                }
+                &::after {
+                    bottom:-8px;
+                }
+                strong {
+                    font-size: 30px;
+                }
+                p{
+                    margin: 0;
+                }
+                .tooltips {
+                    width: 100%;
+                    position: absolute;
+                    top:20px;
+                    text-align: center;
+                    .tooltip{
+                        .tooltip-inner{
+                            background-color: burlywood;
+                        }
+                    }
+                    button {
+                        &:last-of-type {
+                            color: green;
+                            
+                        }
+                        &:first-of-type {
+                            color: pink;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

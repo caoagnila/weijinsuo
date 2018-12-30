@@ -1,0 +1,16 @@
+#features .row {
+  padding: 40px;
+}
+#features .row .media-list {
+  margin: 15px 0 10px 0 ;
+}
+#features .row .media-list a {
+  color: #000;
+  text-decoration: none;
+}
+#features .row .media-list a:hover {
+  color: red;
+}
+#features .row .media-list p {
+  margin: 0;
+}
